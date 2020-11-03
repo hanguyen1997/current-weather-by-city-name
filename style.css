@@ -26,6 +26,13 @@ p{
     font-family: system-ui;
     text-align: center;
 }
+.notify-projcet{
+	width: 100%;
+    background-color: red;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+}
 .box-input-city-name{
 	margin: 0 auto;
     display: flex;
