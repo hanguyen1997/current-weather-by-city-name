@@ -43,13 +43,14 @@ p{
 	outline: none;
 }
 .content{
-    background-color: white;
+    background-color: #f7c8f1;
     margin: 20px 0px 25px 0px;
     text-align: center;
 }
 .icons_weather img {
 	margin: 0 auto;
     display: flex;
+    width: 250px;
 }
 .content_weather{
 	font-size: 50px;

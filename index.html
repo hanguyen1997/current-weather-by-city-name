@@ -13,19 +13,19 @@
 		</div>
 		<div class="notify-projcet"></div>
 		<div class="box-input-city-name">
-			<input type="text" placeholder="City name" name="input_city_name"  class="input_city_name" value>
-			<input type="submit" value="Submit" name="submit_city_name" class="submit_city_name" >
+			<input type="text" placeholder="City name" name="input_city_name" id="input_city_name"  class="input_city_name" value>
+			<input type="button" value="Submit" name="submit_city_name" id="submit_city_name" class="submit_city_name" >
 		</div>
 		<div class="content">
-			<div class="icons_weather">
-				<img src="icons/black/png/256x256/unknown.png">
+			<div class="icons_weather"  id="icons_weather" >
+				<img src="icons/unknown.png">
 			</div>
-			<div class="content_weather">
-				<p>26 °<span>C</span></p>
+			<div class="content_weather" id="content_weather">
+				<p>- °C</p>
 			</div>
 			<div class="location">
-				<p>Cloudy</p>
-				<p>Đà Nẵng, Việt Nam</p>
+				<p class="description" id="description">-</p>
+				<p class="info_location" id="info_location">-</p>
 			</div>
 		</div>
 		<div class="footer">
